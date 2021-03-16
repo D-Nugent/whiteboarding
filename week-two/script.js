@@ -154,6 +154,10 @@ for (let i = 1; i < 13; i++) {
   }
   
 
+
+  // If there is a student who is finding content too easy and needs a challenge:
+
+  // Bonus: Create a function that console logs a pyramid:
 function triangle(size){
 	for(let i = 1; i <= size; i++){ 
 		let array = [];
