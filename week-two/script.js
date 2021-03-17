@@ -76,13 +76,11 @@ function adjustScope() {
 
     console.log(a, b);
 
-    function iWannaBeGlobal(){
+    {
         let c = "Goodbye";
         var d = "Global";
         console.log(c, d);
     };
-
-    iWannaBeGlobal();
 
     //2a
     // console.log('This will fail due to Scope:');
